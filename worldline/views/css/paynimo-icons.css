@@ -1,0 +1,296 @@
+@charset "UTF-8";@font-face {
+    font-family: paynimo-icons;
+    src: url(../fonts/paynimo-icons.eot?1.1);
+    src: url(../fonts/paynimo-icons.eot?#iefix1.1) format("embedded-opentype"),url(../fonts/paynimo-icons.woff?1.1) format("woff"),url(../fonts/paynimo-icons.ttf?1.1) format("truetype"),url(../fonts/paynimo-icons.svg#paynimo-icons?1.1) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+#checkoutmodal [data-icon]:before {
+    font-family: paynimo-icons!important;
+    content: attr(data-icon);
+    font-style: normal!important;
+    font-weight: 400!important;
+    font-variant: normal!important;
+    text-transform: none!important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+#checkoutmodal [class*=" ico-"]:before,#checkoutmodal [class*=" icon-"]:before,#checkoutmodal [class^=ico-]:before,#checkoutmodal [class^=icon-]:before {
+    font-family: paynimo-icons!important;
+    font-style: normal!important;
+    font-weight: 400!important;
+    font-variant: normal!important;
+    text-transform: none!important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+#checkoutmodal .icon-angle-left:before {
+    content: "\e000"
+}
+
+#checkoutmodal .icon-angle-down:before {
+    content: "\e001"
+}
+
+#checkoutmodal .icon-angle-right:before {
+    content: "\e002"
+}
+
+#checkoutmodal .icon-angle-up:before {
+    content: "\e003"
+}
+
+#checkoutmodal .icon-calendar:before {
+    content: "\e004"
+}
+
+#checkoutmodal .icon-chevron-down:before {
+    content: "\e005"
+}
+
+#checkoutmodal .icon-chevron-left:before {
+    content: "\e006"
+}
+
+#checkoutmodal .icon-chevron-right:before {
+    content: "\e007"
+}
+
+#checkoutmodal .icon-chevron-up:before {
+    content: "\e008"
+}
+
+#checkoutmodal .icon-cloud-download:before {
+    content: "\e009"
+}
+
+#checkoutmodal .icon-cloud-upload:before {
+    content: "\e00a"
+}
+
+#checkoutmodal .icon-inr:before {
+    content: "\e00b"
+}
+
+#checkoutmodal .icon-caret-down:before {
+    content: "\e00c"
+}
+
+#checkoutmodal .icon-caret-left:before {
+    content: "\e00d"
+}
+
+#checkoutmodal .icon-caret-right:before {
+    content: "\e00e"
+}
+
+#checkoutmodal .icon-caret-up:before {
+    content: "\e00f"
+}
+
+#checkoutmodal .icon-gift:before {
+    content: "\e010"
+}
+
+#checkoutmodal .icon-paper-plane:before {
+    content: "\e011"
+}
+
+#checkoutmodal .icon-paper-plane-o:before {
+    content: "\e012"
+}
+
+#checkoutmodal .icon-thumbs-o-down:before {
+    content: "\e013"
+}
+
+#checkoutmodal .icon-thumbs-o-up:before {
+    content: "\e014"
+}
+
+#checkoutmodal .icon-trash-o:before {
+    content: "\e015"
+}
+
+#checkoutmodal .icon-trash:before {
+    content: "\e016"
+}
+
+#checkoutmodal .icon-bell-o:before {
+    content: "\e017"
+}
+
+#checkoutmodal .icon-bookmark-o:before {
+    content: "\e018"
+}
+
+#checkoutmodal .icon-file-pdf-o:before {
+    content: "\e019"
+}
+
+#checkoutmodal .icon-list:before {
+    content: "\e01a"
+}
+
+#checkoutmodal .icon-pencil:before {
+    content: "\e01b"
+}
+
+#checkoutmodal .icon-neftrtgs:before {
+    content: "\e01c"
+}
+
+#checkoutmodal .icon-netbanking:before {
+    content: "\e01c"
+}
+
+#checkoutmodal .icon-cards:before {
+    content: "\e01d"
+}
+
+#checkoutmodal .icon-cashcards:before {
+    content: "\e01e"
+}
+
+#checkoutmodal .icon-debitpin:before {
+    content: "\e01f"
+}
+
+#checkoutmodal .icon-digitalmandate:before {
+    content: "\e020"
+}
+
+#checkoutmodal .icon-emibanks:before {
+    content: "\e021"
+}
+
+#checkoutmodal .icon-imps:before {
+    content: "\e022"
+}
+
+#checkoutmodal .icon-mvisa:before {
+    content: "\e023"
+}
+
+#checkoutmodal .icon-upi:before {
+    content: "\e024"
+}
+
+#checkoutmodal .icon-wallets:before {
+    content: "\e025"
+}
+
+#checkoutmodal .icon-settings:before {
+    content: "\e026"
+}
+
+#checkoutmodal .icon-camera:before {
+    content: "\e027"
+}
+
+#checkoutmodal .icon-bubble:before {
+    content: "\e028"
+}
+
+#checkoutmodal .icon-location:before {
+    content: "\e029"
+}
+
+#checkoutmodal .icon-up-open-big:before {
+    content: "\e02a"
+}
+
+#checkoutmodal .icon-down-open-big:before {
+    content: "\e02b"
+}
+
+#checkoutmodal .icon-x:before {
+    content: "\e02c"
+}
+
+#checkoutmodal .icon-bell:before {
+    content: "\e02f"
+}
+
+#checkoutmodal .icon-ios-checkmark:before {
+    content: "\e030"
+}
+
+#checkoutmodal .icon-ios-checkmark-outline:before {
+    content: "\e031"
+}
+
+#checkoutmodal .icon-ios-close:before {
+    content: "\e032"
+}
+
+#checkoutmodal .icon-ios-close-outline:before {
+    content: "\e033"
+}
+
+#checkoutmodal .icon-ios-telephone-outline:before {
+    content: "\e034"
+}
+
+#checkoutmodal .icon-email-mail-streamline:before {
+    content: "\e035"
+}
+
+#checkoutmodal .icon-android-radio-button-off:before {
+    content: "\e036"
+}
+
+#checkoutmodal .icon-android-radio-button-on:before {
+    content: "\e037"
+}
+
+#checkoutmodal .ico-radio:before {
+    content: "\e036"
+}
+
+#checkoutmodal .ico-radio.active:before {
+    content: "\e037"
+}
+
+#checkoutmodal .icon-smile-o:before {
+    content: "\e038"
+}
+
+#checkoutmodal .icon-frown-o:before {
+    content: "\e039"
+}
+
+#checkoutmodal .icon-user:before {
+    content: "\e03a"
+}
+
+#checkoutmodal .icon-user-outline:before {
+    content: "\e03b"
+}
+
+#checkoutmodal .icon-users:before {
+    content: "\e03c"
+}
+
+#checkoutmodal .icon-users-outline:before {
+    content: "\e03d"
+}
+
+#checkoutmodal .icon-trashnew:before {
+    content: "\e03e"
+}
+
+#checkoutmodal .icon-android-locate:before {
+    content: "\e03f"
+}
+
+#checkoutmodal .icon-info-circled:before {
+    content: "\e040"
+}
